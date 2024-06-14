@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://William-Bang-s-workspace-4tad7g.eu-west-1.xata.sh/db/PNnails",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

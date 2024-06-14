@@ -1,6 +1,10 @@
 import Image from "next/image";
+import { getXataClient } from "../../xata";
 
-export default function Home() {
+export default async function Home() {
+  const xataClient = getXataClient();
+  const bookings = await xataClient.db.Bookings.getMany();
+
   return (
     <>
       <main>
@@ -11,6 +15,9 @@ export default function Home() {
           height={1000}
           priority
         />
+        {bookings.map((booking) => (
+          <p key={booking.id}>{booking.name}</p>
+        ))}
       </main>
     </>
   );
