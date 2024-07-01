@@ -1,0 +1,16 @@
+{
+  "id": "mig_cplhlgismis9op5ei6i0",
+  "parentID": "mig_cplhl9salva34fe6qhvg",
+  "checksum": "1:6d96f08ef556f5bb05a16731aaffd23b5f5c591b79161288e03e6a7b01a6298e",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "AppointmentType",
+          "type": "multiple"
+        },
+        "table": "Bookings"
+      }
+    }
+  ]
+}

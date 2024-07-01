@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getXataClient } from "../../xata";
+import Link from "next/link";
 
 export default async function Home() {
   const xataClient = getXataClient();
@@ -18,6 +19,11 @@ export default async function Home() {
         {bookings.map((booking) => (
           <p key={booking.id}>{booking.name}</p>
         ))}
+        <Link
+              href="booking/view"
+            >
+              View bookings
+            </Link>
       </main>
     </>
   );

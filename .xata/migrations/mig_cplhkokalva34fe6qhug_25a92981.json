@@ -1,0 +1,11 @@
+{
+  "id": "mig_cplhkokalva34fe6qhug",
+  "checksum": "1:25a9298148fbd5a351939bf8df9798f94215500020bb8a307e1fe43f2eec7417",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Bookings"
+      }
+    }
+  ]
+}

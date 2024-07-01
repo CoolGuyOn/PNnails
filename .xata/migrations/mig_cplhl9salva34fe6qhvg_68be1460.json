@@ -1,0 +1,16 @@
+{
+  "id": "mig_cplhl9salva34fe6qhvg",
+  "parentID": "mig_cplhkokalva34fe6qhug",
+  "checksum": "1:68be14600f2786a9fa7319b0fe132ef82f9eec014954fc1c5975e3956a287e9b",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "DateTime",
+          "type": "datetime"
+        },
+        "table": "Bookings"
+      }
+    }
+  ]
+}

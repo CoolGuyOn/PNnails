@@ -1,0 +1,17 @@
+{
+  "id": "mig_cplk15bqte8fjd1anitg",
+  "parentID": "mig_cplhlgismis9op5ei6i0",
+  "checksum": "1:565761c392e8c83c9b731da8870d9167a62ce445195452da7f1a7f32adecab94",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "string",
+          "defaultValue": ""
+        },
+        "table": "Bookings"
+      }
+    }
+  ]
+}

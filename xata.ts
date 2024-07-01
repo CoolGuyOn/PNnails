@@ -11,7 +11,7 @@ const tables = [
     name: "Bookings",
     columns: [
       { name: "DateTime", type: "datetime" },
-      { name: "AppointmentType", type: "multiple" },
+      { name: "appointmentType", type: "multiple" },
       { name: "name", type: "string", defaultValue: "" },
     ],
   },
