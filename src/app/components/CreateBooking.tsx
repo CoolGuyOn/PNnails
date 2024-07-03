@@ -47,7 +47,7 @@ async function createBooking(formData: FormData) {
     revalidatePath('/booking');
 
     return {
-      message: "Success!",
+      message: "Booking made successfully!",
     };
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : "There was an error";
